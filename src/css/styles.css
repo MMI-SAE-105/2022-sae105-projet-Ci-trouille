@@ -1,0 +1,23 @@
+body:not(header){
+    margin: 0;
+}
+
+header{
+    background-image: url("../../assets/img/Entête.webp");
+    height: 131px;
+    width: 375px;
+}
+
+.racine{
+    margin-left: 10%;
+    margin-top: 12%;
+    margin-right: 80px;
+}
+
+.en{
+    margin-left: 5px;
+}
+
+.menu{
+    margin-right: 10%;
+}
