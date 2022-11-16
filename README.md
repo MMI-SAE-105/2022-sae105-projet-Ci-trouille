@@ -1,7 +1,7 @@
-- NOM : 
-- PRÉNOM :
-- URL du site :
-- URL FIGMA :
+- NOM : Julia
+- PRÉNOM : Duflot
+- URL du site : 
+- URL FIGMA : https://www.figma.com/file/SWhlnqiOvoM1NBcZ940DGX/Maquettes-projet-individuel-—-Julia-Duflot?node-id=801%3A1234&t=mNe2B57vAikvWofK-0 
 
 # Structure de départ pour le projet individuel.
 
