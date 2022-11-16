@@ -3,7 +3,7 @@ body:not(header){
 }
 
 header{
-    background-image: url("../../public/img/Entête.webp");
+    background-image: url("../../public/img/entete.webp");
     height: 131px;
     width: 375px;
 }
