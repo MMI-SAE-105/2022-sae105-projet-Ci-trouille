@@ -9,17 +9,25 @@ header {
 }
 
 .racine {
-  margin-top: 12%;
+  margin-top: 11%;
   margin-left: 10%;
-  margin-right: 80px;
+}
+
+.fr {
+  margin-top: 2%;
+  margin-left: 22%;
+}
+
+.sep {
+  margin-left: 1%;
 }
 
 .en {
-  margin-left: 5px;
+  margin-left: 2%;
 }
 
-.menu {
-  margin-right: 10%;
+.menuburger {
+  margin-left: 5%;
 }
 
 /*# sourceMappingURL=index.77a9bc14.css.map */

@@ -10,15 +10,22 @@ header{
 
 .racine{
     margin-left: 10%;
-    margin-top: 12%;
-    margin-right: 80px;
+    margin-top: 11%;
+}
+
+.fr{
+    margin-left: 22%;
+    margin-top: 2%;
+}
+
+.sep{
+    margin-left: 1%;
 }
 
 .en{
-    margin-left: 5px;
+    margin-left: 2%;
 }
 
-.menu{
-    margin-right: 10%;
-
+.menuburger{
+    margin-left: 5%;
 }
