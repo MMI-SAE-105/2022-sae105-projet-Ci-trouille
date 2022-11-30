@@ -11,6 +11,11 @@ Soyez attentifs à l'ordre d'import :
   6. Les composant d'interface (Components)
 */
 
+
+@import "vendors/normalize.css";
+
+
+/*  
 body:not(header){
     margin: 0;
 }
@@ -42,3 +47,4 @@ header{
 .menu{
     margin-left: 5%;
 }
+*/
