@@ -11,7 +11,7 @@ Soyez attentifs à l'ordre d'import :
   6. Les composant d'interface (Components)
 */
 
-font-family: 'Special Elite', cursive;
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,400&family=Special+Elite&display=swap');
 
 /* Librairies */
