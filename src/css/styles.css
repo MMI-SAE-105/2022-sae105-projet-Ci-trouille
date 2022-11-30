@@ -11,9 +11,11 @@ Soyez attentifs à l'ordre d'import :
   6. Les composant d'interface (Components)
 */
 
-
+/* Librairies */
 @import "vendors/normalize.css";
 
+/* Variables */
+@import "utils/variables.css";
 
 /*  
 body:not(header){
