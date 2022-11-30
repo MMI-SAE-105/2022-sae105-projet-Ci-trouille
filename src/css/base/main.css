@@ -1,0 +1,10 @@
+body {
+    font-family: var(--sans-serif);
+    font-size: var(--corps);
+    line-height: 1.6;
+    background-color: var(--gris-blanc-dominant);
+  }
+
+h1{
+  font-family: var(--font-family);
+}

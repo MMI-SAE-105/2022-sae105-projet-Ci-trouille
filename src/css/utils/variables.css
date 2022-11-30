@@ -1,12 +1,12 @@
 :root{
 /* Color styles */
---coul----orange--tonique: rgba(235, 122, 19, 1);
---coul----bleu--clair: rgba(52, 58, 75, 1);
---coul----bleu--foncé: rgba(22, 26, 47, 1);
---gris----blanc--dominant: rgba(255, 255, 255, 1);
---gris----gris--clair: rgba(228, 228, 228, 1);
---gris----gris-foncé: rgba(37, 37, 37, 1);
---gris----noir: rgba(23, 23, 23, 1);
+--coul-orange-tonique: rgba(235, 122, 19, 1);
+--coul-bleu-clair: rgba(52, 58, 75, 1);
+--coul-bleu-fonce: rgba(22, 26, 47, 1);
+--gris-blanc-dominant: rgba(255, 255, 255, 1);
+--gris-gris-clair: rgba(228, 228, 228, 1);
+--gris-gris-fonce: rgba(37, 37, 37, 1);
+--gris-noir: rgba(23, 23, 23, 1);
 
 /* Text-size styles */
 /* base size: corps (18px) */
@@ -21,7 +21,7 @@
 --bouton: 0.78rem;
 
 /* Typography */
---font-family: 'Jost', sans-serif;
+--sans-serif: 'Jost', sans-serif;
 --font-family: 'Special Elite', cursive;
 
 /* Espaces */
