@@ -17,6 +17,16 @@ Soyez attentifs à l'ordre d'import :
 /* Variables */
 @import "utils/variables.css";
 
+/* Règles générales */
+@import "base/main.css";
+@import "base/media.css";
+
+/* Layout */
+@import "layout/header.css";
+@import "layout/footer.css";
+
+/* Composants */
+
 /*  
 body:not(header){
     margin: 0;
