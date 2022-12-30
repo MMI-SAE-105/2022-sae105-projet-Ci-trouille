@@ -1,0 +1,20 @@
+.menu-principal{
+    background-color: var(--coul-bleu-clair);   
+}
+
+.menu-principal__titre{ 
+    color: var(--gris-blanc-dominant);
+    font-size: var(--corps);
+}
+
+.menu-principal__liste{
+    list-style: none;
+    padding-left:0;
+}
+
+.menu-principal__lien{
+    color: var(--gris-blanc-dominant);
+    font-size: var(--petit-texte-lien);
+    text-decoration: none;
+}
+
