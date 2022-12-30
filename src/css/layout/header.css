@@ -1,0 +1,23 @@
+.header{
+    background-color: var(--coul-bleu-fonce);
+    position : fixed;
+    top : 0;
+    height: 300px;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.header__logo{
+    display: block;
+    padding: 35px 25px 0px 35px;
+}
+
+
+.header__menu{
+    padding-top: 25px;
+    padding-right: 3px;
+    
+}
+
