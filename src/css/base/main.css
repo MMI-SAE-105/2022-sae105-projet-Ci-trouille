@@ -1,9 +1,12 @@
-body {
-    font-family: var(--sans-serif);
+body{
+  font-family: var(--sans-serif);
     font-size: var(--corps);
     color : var(--gris-noir);
     line-height: 1.6;
     background-color: var(--gris-blanc-dominant);
+}
+
+main {
     margin : 15px;
   }
 

@@ -5,9 +5,33 @@
     right: 0;
     width: 100%;
     color : var(--gris-blanc-dominant);
-
+    border-top: 15px solid var(--coul-bleu-clair);
+   
 }
 
 .footer__titre{
+    padding: 30px ;
+    
+}
+
+         
+.footer__email{
+    color: var(--gris-blanc-dominant);
+}
+
+
+.footer__insta{
+    
+}
+.footer__youtube{
+    
+}
+.footer_items{
+    
+}
+.footer__legal{
+    
+}
+.footer__logo{
     
 }
