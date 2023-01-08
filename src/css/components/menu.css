@@ -1,26 +1,46 @@
-.menu__principal{
+.header__menu{
     position: fixed;
-    top: 90px;
+    margin-top: 100px;
+    top: 0;
     left: 0;
     width: 100%;
-    height: calc(100% - 80px);
+    display: grid;
+    place-content: center;
     background-color: var(--coul-bleu-clair);
+    border-radius:  0px 0px 160px 240px / 0px 0px 56px 64px;
 
 }
 
-.menu__principal--titre{ 
+.menu-principal__titre{ 
     color: var(--gris-blanc-dominant);
     font-size: var(--corps);
 }
 
-.menu__principal--liste{
+.header__menuListe{
+    margin-top: 2px;
     list-style: none;
-    padding-left:0;
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 30px;
 }
 
-.menu__principal--lien{
+.header__menuTitreArticle{
+    margin-bottom: 2px;
     color: var(--gris-blanc-dominant);
-    font-size: var(--petit-texte-lien);
+    font-size: var(--h2);
     text-decoration: none;
 }
 
+.header__menuTitrePlus{
+    margin-bottom: 2px;
+    color: var(--gris-blanc-dominant);
+    font-size: var(--h2);
+    text-decoration: none;
+}
+        
+.header__menuLienArticle{
+    
+    color: var(--gris-blanc-dominant);
+    font-size: var(--bouton);
+    text-decoration: none;
+}
