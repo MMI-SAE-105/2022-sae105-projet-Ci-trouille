@@ -15,10 +15,26 @@ h1{
   font-family: var(--font-family);
 }
 
+h2{
+  font-family: var(--font-family);
+}
+
 button {
   appearance: none;
   border: 2px;
   background: none;
   padding: 0;
   cursor: pointer;
+}
+
+.article__bontonSuite{
+    margin: 0 37% ;
+    margin-bottom: 50px;
+    padding: 5px 15px;
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    background-color: var(--coul-bleu-fonce);
+    border-radius: 5px;
+    color: var(--gris-blanc-dominant);
 }
