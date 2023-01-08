@@ -1,23 +1,46 @@
 .header{
     background-color: var(--coul-bleu-fonce);
-    position : fixed;
     top : 0;
+    right : 0;
     height: 100px;
     width: 100%;
+    position : fixed;
+    border-bottom: 15px solid var(--coul-bleu-clair);
+    z-index: 1;
+}
+
+.header__nav--items{
+    position: fixed;
     display: flex;
 }
 
 .header__logo{
-    display: block;
-    padding: 50px 45px 0px 35px;
+    display: flex;
+    padding-top: 50px;
+    margin-right: 170px;
+    padding-left: 30px;
 }
 
-.header__fr{
-    padding-left : 50px;
+.header__langueFR{
+    display: flex;
+    padding-top: 40px;
+    padding-right: 5px;
 }
 
-.header__menu{
-    padding-top: 35px;
-    padding-left: 35px; 
+.header__langueEN{
+    padding-top: 40px;
+    padding-left: 8px;
+
+}
+
+.header__separateur{
+    padding-top: 40px;
+}
+
+.header__menubtn{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 30px;
+
 }
 
