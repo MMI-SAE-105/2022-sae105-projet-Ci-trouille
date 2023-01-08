@@ -6,32 +6,53 @@
     width: 100%;
     color : var(--gris-blanc-dominant);
     border-top: 15px solid var(--coul-bleu-clair);
-   
+}
+.footer__reseaux{
+    
 }
 
 .footer__titre{
-    padding: 30px ;
-    
+    padding-left: 30px;
+    font-size: var(--h2) ;
+    margin-bottom: 2px;
 }
-
-         
-.footer__email{
-    color: var(--gris-blanc-dominant);
-}
-
 
 .footer__insta{
-    
+    padding-left: 30px;
+    padding-right: 10px;
+
 }
+
 .footer__youtube{
     
 }
+
+.footer__texte{
+    padding-left: 30px;
+    font-size: var(--petit-texte);
+}
+
+.footer__nom{
+    margin-bottom: 2px;
+}
+
+.footer__email{
+    color: var(--gris-blanc-dominant);
+    margin-top: 2px;
+}
+
 .footer_items{
-    
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: var(--petit-texte);
+    display: flex;
+    align-items: center;
 }
-.footer__legal{
-    
-}
+
 .footer__logo{
-    
+    padding-right: 10px;
+}
+
+.footer__legal{
+    padding-right: 30px;
 }
