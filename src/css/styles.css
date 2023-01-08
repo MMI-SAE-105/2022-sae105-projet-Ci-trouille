@@ -29,37 +29,4 @@ Soyez attentifs à l'ordre d'import :
 @import "layout/footer.css";
 
 /* Composants */
-
-/*  
-body:not(header){
-    margin: 0;
-}
-
-header{
-    background-image: url("../../public/img/entete.webp");
-    height: 131px;
-    width: 375px;
-}
-
-.racine{
-    margin-left: 10%;
-    margin-top: 11%;
-}
-
-.fr{
-    margin-left: 22%;
-    margin-top: 2%;
-}
-
-.sep{
-    margin-left: 1%;
-}
-
-.en{
-    margin-left: 2%;
-}
-
-.menu{
-    margin-left: 5%;
-}
-*/
+@import "componants/menu.css"
