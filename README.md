@@ -1,6 +1,6 @@
 - NOM : Julia
 - PRÉNOM : Duflot
-- URL du site : 
+- URL du site : http://racines.juliaduflot.fr
 - URL FIGMA : 
 (maquette 1) https://www.figma.com/file/SWhlnqiOvoM1NBcZ940DGX/Maquettes-projet-individuel-—-Julia-Duflot?node-id=801%3A1234&t=mNe2B57vAikvWofK-0
 (maquette 2) https://www.figma.com/file/WQddK4HHMPckvo8FBHCyuJ/Maquette-projet-S1-—-Julia-Duflot-V2?node-id=1414%3A1475&t=7FNmtFcEE4kGznJR-0
