@@ -1,45 +1,49 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Racines — Filmographie D.Boyle</title>
-    <link rel="stylesheet"  href="src/css/styles.css">
-    <link rel="icon" href="public/img/tache-droite-orange.webp">
-</head>
-<body>
-    <!--Entête de la page-->
-    <header>
-        <a href="a-propos.html">
-    <img class ="racine" src="public/icones/racines.svg" alt="logo Racines"></a>
-    <span>
-        <img class ="fr" src="public/icones/fr.svg" alt="icônes langue française">
-        <img class ="sep" src="public/icones/separateur.svg" alt="séparateur de choix de langue" >
-        <img class ="en" src="public/icones/en.svg" alt="icônes langue anglaise">
-        <img class ="menu" src="public/icones/menu.svg" alt="menu">
-    </span>
-
-    <!-- Menu principal -->
-    <nav>
-        <p>Articles</p>
-        <ul>
-            <li><a href = "trainspotting-un-trip-cinematographique.html">Trainspotting, un trip cinématographique</a></li>
-            <li><a href = "maison-dansante-lendroit-le-plus-insolite.html">La maison dansante, le bâtiment le plus insolite au monde ?</a></li>
-            <li><a href = "zombillenium-un-parc-denfer.html">Zombillenium, un parc d'enfer</a></li>
-            <li><a href = "skip-the-use-au-parc-des-zombies.html">Skip the use au parc des zombies</a></li>
-            <li><a href = "societe-jusquou-ira-legoisme.html">Société : Jusqu’où ira l'égoïsme ?</a></li>
-            <li><a href = "generation-Z-delivre-des-tabous.html">La génération Z délivre des tabous</a></li>
-        </ul>
-        <p>Plus</p>
-        <ul>
-            <li><a href="a-propos.html">À propos</a></li>
-            <li><a href="a-propos.html">Autres projets</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="glossaire.html">Glossaire</a></li>
-        </ul>
-    </nav>
-    </header>
+    <html lang="fr" x-data="{menuIs0pen : false}" >
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Racines — Filmographie D.Boyle</title>
+        <script defer src="https://unpkg.com/alpinejs"></script>
+        <link rel="stylesheet"  href="src/css/styles.css">
+        <link rel="icon" href="public/img/tache-droite-orange.webp">
+    </head>
+    <body>
+        <!--Entête de la page-->
+        <header class="header" >
+            <div class="header__items">
+                <a href="index.html"><img class="header__logo" src="public/icones/racines.svg" alt="logo Racines"></a>
+                    <img class ="header__langueFR" src="public/icones/fr.svg" alt="icônes langue française">
+                    <img class ="header__separateur" src="public/icones/separateur.svg" alt="séparateur de choix de langue" >
+                    <img class ="header__langueEN" src="public/icones/en.svg" alt="icônes langue anglaise">
+                    <button class="header__menubtn" aria-controls="mainNav" @click="menuIs0pen = ! menuIs0pen" aria-expanded="true" aria-label="menu">
+                        <img src="public/icones/menu.svg" alt="menu">
+                    </button>
+            </div>
+    
+            <!-- Menu principal -->
+            <nav class="header__menu" id="mainNav" x-show="menuIs0pen" x-transition.duration.500ms>
+                <p class="header__menuTitreArticle">Articles</p>
+                <div class="header__menuListe" >
+                <ul class="header__menuListe" id="mainNav">
+                    <li><a href = "trainspotting-un-trip-cinematographique.html" class="header__menuLienArticle">Trainspotting, un trip cinématographique</a></li>
+                    <li><a href = "maison-dansante-lendroit-le-plus-insolite.html" class="header__menuLienArticle">La maison dansante, le bâtiment le plus insolite au monde ?</a></li>
+                    <li><a href = "zombillenium-un-parc-denfer.html" class="header__menuLienArticle">Zombillenium, un parc d'enfer</a></li>
+                    <li><a href = "skip-the-use-au-parc-des-zombies.html" class="header__menuLienArticle">Skip the use au parc des zombies</a></li>
+                    <li><a href = "societe-jusquou-ira-legoisme.html" class="header__menuLienArticle">Société : Jusqu'où ira l'égoïsme ?</a></li>
+                    <li><a href = "generation-Z-delivre-des-tabous.html" class="header__menuLienArticle">La génération Z délivre des tabous</a></li>
+                </ul>
+                <p class="header__menuTitrePlus">Plus</p>
+                <ul class="header__menuListe">
+                    <li><a href="a-propos.html" class="header__menuLienArticle">À propos</a></li>
+                    <li><a href="a-propos.html" class="header__menuLienArticle">Autres projets</a></li>
+                    <li><a href="contact.html" class="header__menuLienArticle">Contact</a></li>
+                    <li><a href="glossaire.html" class="header__menuLienArticle">Glossaire</a></li>
+                </ul>
+                </div>
+            </nav>
+        </header>
     
     <!--Contenu de la page-->
     <main>
