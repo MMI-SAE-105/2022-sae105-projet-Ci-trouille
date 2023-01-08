@@ -1,19 +1,25 @@
-.menu-principal{
-    display: none;
-    background-color: var(--coul-bleu-clair);   
+.menu__principal{
+    position: fixed;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 80px);
+
+    background-color: var(--coul-bleu-clair);
+
 }
 
-.menu-principal__titre{ 
+.menu__principal--titre{ 
     color: var(--gris-blanc-dominant);
     font-size: var(--corps);
 }
 
-.menu-principal__liste{
+.menu__principal--liste{
     list-style: none;
     padding-left:0;
 }
 
-.menu-principal__lien{
+.menu__principal--lien{
     color: var(--gris-blanc-dominant);
     font-size: var(--petit-texte-lien);
     text-decoration: none;
