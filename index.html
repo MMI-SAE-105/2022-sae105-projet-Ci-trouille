@@ -1,36 +1,33 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIs0pen : false}" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Racines</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="stylesheet"  href="src/css/styles.css">
-    <link rel="stylesheet"  href="src/css/utils/variables.css">
-    <link rel="stylesheet"  href="src/css/components/menu.css">
-    <link rel="stylesheet" href="src/css/layout/header.css">
-
     <link rel="icon" href="public/img/tache-droite-orange.webp">
 </head>
 <body>
-
     <!--Entête de la page-->
-    <header class="header">
-        
+    <header class="header" >
         <div class="header__items">
             <a href="index.html"><img class="header__logo" src="public/icones/racines.svg" alt="logo Racines"></a>
                 <img class ="header__langueFR" src="public/icones/fr.svg" alt="icônes langue française">
                 <img class ="header__separateur" src="public/icones/separateur.svg" alt="séparateur de choix de langue" >
                 <img class ="header__langueEN" src="public/icones/en.svg" alt="icônes langue anglaise">
-                <img class ="header__menubtn"  src="public/icones/menu.svg" alt="menu">
-              
+                <button class="header__menubtn"  aria-controls="mainNav" @click="menuIs0pen = ! menuIs0pen" aria-expanded="true" aria-label="menu">
+                    <button class="header__menubtn"aria-controls="mainNav" @click="menuIs0pen = ! menuIs0pen" aria-expanded="true" aria-label="menu">
+                    <img src="public/icones/menu.svg" alt="menu">
+                    </button>
         </div>
 
         <!-- Menu principal -->
-        <nav class="menu menu__scroll" id="mainNav" x-show="menuIsOpen">
+        <nav class="header__menubtn" id="mainNav" x-show="menuIs0pen" x-transition.duration.500ms>
             <p class="menu-principal__titre">Articles</p>
-            <ul class="menu-principal__liste" x-show="menuIsOpen" x-transition:enter.duration.800ms x-transition:leave.duration.300ms>
+            <div class="menu__liste" >
+            <ul id="mainNav">
                 <li><a href = "trainspotting-un-trip-cinematographique.html" class="menu-principal__lien">Trainspotting, un trip cinématographique</a></li>
                 <li><a href = "maison-dansante-lendroit-le-plus-insolite.html" class="menu-principal__lien">La maison dansante, le bâtiment le plus insolite au monde ?</a></li>
                 <li><a href = "zombillenium-un-parc-denfer.html" class="menu-principal__lien">Zombillenium, un parc d'enfer</a></li>
@@ -45,6 +42,7 @@
                 <li><a href="contact.html" class="menu__principal--lien">Contact</a></li>
                 <li><a href="glossaire.html" class="menu__principal--lien">Glossaire</a></li>
             </ul>
+            </div>
         </nav>
     </header>
 

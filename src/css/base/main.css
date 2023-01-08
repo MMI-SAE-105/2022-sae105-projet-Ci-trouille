@@ -13,3 +13,11 @@ main {
 h1{
   font-family: var(--font-family);
 }
+
+button {
+  appearance: none;
+  border: 2px;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
