@@ -17,18 +17,20 @@
 
     <!--Entête de la page-->
     <header class="header">
-        <div class="header__nav--items">
-        <a href="index.html"><img class="header__logo" src="public/icones/racines.svg" alt="logo Racines"></a>
-            <img class ="header__langueFR" src="public/icones/fr.svg" alt="icônes langue française">
-            <img class ="header__separateur" src="public/icones/separateur.svg" alt="séparateur de choix de langue" >
-            <img class ="header__langueEN" src="public/icones/en.svg" alt="icônes langue anglaise">
-            <img class ="header__menubtn" src="public/icones/menu.svg" alt="menu">
+        <header x-data="{menuIsOpen : false}">
+        <div class="header__items">
+            <a href="index.html"><img class="header__logo" src="public/icones/racines.svg" alt="logo Racines"></a>
+                <img class ="header__langueFR" src="public/icones/fr.svg" alt="icônes langue française">
+                <img class ="header__separateur" src="public/icones/separateur.svg" alt="séparateur de choix de langue" >
+                <img class ="header__langueEN" src="public/icones/en.svg" alt="icônes langue anglaise">
+                <img class ="header__menubtn" @click="menuIsOpen= ! menuIsOpen" aria-expanded="true" aria-controls="mainNav" aria-label="menu" src="public/icones/menu.svg" alt="menu">
+              
         </div>
 
         <!-- Menu principal -->
-        <nav class="menu-principal">
+        <nav class="menu menu__scroll" id="mainNav" x-show="menuIsOpen">
             <p class="menu-principal__titre">Articles</p>
-            <ul class="menu-principal__liste">
+            <ul class="menu-principal__liste" x-show="menuIsOpen" x-transition:enter.duration.800ms x-transition:leave.duration.300ms>
                 <li><a href = "trainspotting-un-trip-cinematographique.html" class="menu-principal__lien">Trainspotting, un trip cinématographique</a></li>
                 <li><a href = "maison-dansante-lendroit-le-plus-insolite.html" class="menu-principal__lien">La maison dansante, le bâtiment le plus insolite au monde ?</a></li>
                 <li><a href = "zombillenium-un-parc-denfer.html" class="menu-principal__lien">Zombillenium, un parc d'enfer</a></li>
@@ -36,12 +38,12 @@
                 <li><a href = "societe-jusquou-ira-legoisme.html" class="menu-principal__lien">Société : Jusqu'où ira l'égoïsme ?</a></li>
                 <li><a href = "generation-Z-delivre-des-tabous.html" class="menu-principal__lien">La génération Z délivre des tabous</a></li>
             </ul>
-            <p class="menu-principal__titre">Plus</p>
-            <ul class="menu-principal__liste">
-                <li><a href="a-propos.html" class="menu-principal__lien">À propos</a></li>
-                <li><a href="a-propos.html" class="menu-principal__lien">Autres projets</a></li>
-                <li><a href="contact.html" class="menu-principal__lien">Contact</a></li>
-                <li><a href="glossaire.html" class="menu-principal__lien">Glossaire</a></li>
+            <p class="menu__principal--titre">Plus</p>
+            <ul class="menu__principal--liste">
+                <li><a href="a-propos.html" class="menu__principal--lien">À propos</a></li>
+                <li><a href="a-propos.html" class="menu__principal--lien">Autres projets</a></li>
+                <li><a href="contact.html" class="menu__principal--lien">Contact</a></li>
+                <li><a href="glossaire.html" class="menu__principal--lien">Glossaire</a></li>
             </ul>
         </nav>
     </header>

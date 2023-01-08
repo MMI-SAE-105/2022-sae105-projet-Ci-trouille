@@ -9,7 +9,7 @@
     z-index: 1;
 }
 
-.header__nav--items{
+.header__items{
     position: fixed;
     display: flex;
 }
